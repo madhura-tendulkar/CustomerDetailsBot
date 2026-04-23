@@ -1,0 +1,50 @@
+{
+  "$schema": "https://cloud.uipath.com/draft/2024-12/entry-point",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "fe4f2770-855f-4032-bd1e-6f9c64799d65",
+      "type": "process",
+      "input": {
+        "type": "object",
+        "properties": {
+          "in_CustomerID": {
+            "type": "integer",
+            "minimum": -2147483648,
+            "maximum": 2147483647
+          }
+        },
+        "required": []
+      },
+      "output": {
+        "type": "object",
+        "properties": {
+          "out_PaymentStatus": {
+            "type": "string"
+          },
+          "out_BillAmount": {
+            "type": "string"
+          },
+          "out_DueDate": {
+            "type": "string"
+          },
+          "out_BillMonth": {
+            "type": "string"
+          },
+          "out_AccountOpenDate": {
+            "type": "string"
+          },
+          "out_EmailAddress": {
+            "type": "string"
+          },
+          "out_PhoneNumber": {
+            "type": "string"
+          },
+          "out_CustomerName": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  ]
+}

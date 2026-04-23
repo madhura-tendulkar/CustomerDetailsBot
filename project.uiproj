@@ -1,0 +1,6 @@
+{
+  "Name": "CustomerDetailsBot",
+  "ProjectType": "Process",
+  "Description": "Accepts customer name or ID and gives back the details as output arguement",
+  "MainFile": "Main.xaml"
+}
